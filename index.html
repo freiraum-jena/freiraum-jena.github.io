@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" dir="ltr"> 
+<head>
+ <title>Freiraum Jena e.V.</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="en-us" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta http-equiv="reply-to" content="http://freiraum-jena.de" />
+  <meta name="generator" content="tnetnoc" />
+  <meta name="author" content="none" />
+  <meta name="copyright" content=" Mieez " />
+  <meta name="description" content="Map Pop: This experiment uses CSS to create an image map with CSS pop-ups" />
+  <meta name="keywords" content="Map Pop: CSS, Pop-up, Image Map, Images, Map, Accessible, No script" />
+    <link rel="stylesheet" type="text/css" href="freiraum.css" media="screen" title="Freiraum Style" />
+  
+<style type="text/css" media="screen">
+li {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+#exp_content {
+  margin : auto;
+  text-align : left;
+  padding : 18px 40px 31px 4%;
+  height : auto;
+         border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+/* just for this experiment */
+
+#exp_content h2, #exp_content p {
+  text-align : center;
+  font-weight : normal;
+  color : #669900;
+  padding-bottom : 9px;
+}
+
+#exp_content, #exp_content p {
+  font-size : 0.9em;
+  color : #000;
+}
+
+strong {
+  color : #669900;
+}
+</style>
+
+<style type="text/css" media="screen">
+
+li {
+}
+
+ul#cmp { 
+  list-style-type : none;
+  position : relative;
+  display : block;
+  background : transparent url(images/Freiraum.png) no-repeat 0 0;
+  width : 990px;
+  height : 482px;
+  border : 1px solid #000;
+  margin : 0 auto 0;
+  padding : 0;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+ul#cmp li { 
+  display : inline;
+}
+
+ul#cmp li a {
+  position : relative;
+  display : block;
+  text-decoration : none;
+}
+
+ul#cmp li a span.offset { 
+  margin-top : -9000px; 
+  margin-left : -9000px;
+  position : absolute;
+}
+
+ul#cmp li a:hover span.offset, ul#cmp li a:focus span.offset, ul#cmp li a:active span.offset {
+  color : #000;
+  background-image : none;
+  background-color : #ffffde;
+  border : 1px solid #000;
+  display : block;
+  width : 150px;
+  height : auto;
+  text-decoration : none;
+  cursor : pointer;
+}
+
+ul#cmp li a:hover span.offset span, ul#cmp li a:focus span.offset span, ul#cmp li a:active span.offset span {
+  display : block;
+  width : 140px;
+  margin : 5px;
+}
+
+
+/* hot-spot 01 css */
+
+ul#cmp li a#cmp01 {
+  width : 267px;
+  height : 60px;
+  margin-top : 0;
+  margin-left : 0px;
+}
+
+ul#cmp li a#cmp01:hover, ul#cmp li a#cmp01:focus, ul#cmp li a#cmp01:active {
+  background : transparent url(images/Freiraum_on.png) no-repeat 0px 0px;
+}
+
+ul#cmp li a#cmp01:hover span.offset, ul#cmp li a#cmp01:focus span.offset, ul#cmp li a#cmp01:active span.offset {
+  margin-top : -1px;
+  margin-left : 0px;
+}
+
+/* hot-spot 02 css */
+
+ul#cmp li a#cmp02 {
+  width : 150px;
+  height : 84px;
+  margin-top : -15px;
+  margin-left : 245px;
+}
+
+ul#cmp li a#cmp02:hover, ul#cmp li a#cmp02:focus, ul#cmp li a#cmp02:active {
+  background : transparent url(images/Freiraum_on.png) no-repeat -244px -45px;
+}
+
+ul#cmp li a#cmp02:hover span.offset, ul#cmp li a#cmp02:focus span.offset, ul#cmp li a#cmp02:active span.offset {
+  margin-top : 35px;
+  margin-left : 135px;
+}
+
+/* hot-spot 03 css */
+
+ul#cmp li a#cmp03 {
+  width : 75px;
+  height : 33px;
+  margin-top : -5px;
+  margin-left : 370px;
+}
+
+ul#cmp li a#cmp03:hover, ul#cmp li a#cmp03:focus, ul#cmp li a#cmp03:active {
+  background : transparent url(images/Freiraum_on.png) no-repeat -370px -125px;
+}
+
+ul#cmp li a#cmp03:hover span.offset, ul#cmp li a#cmp03:focus span.offset, ul#cmp li a#cmp03:active span.offset {
+  margin-top : -89px;
+  margin-left : 135px;
+}
+
+/* hot-spot 04 css */
+
+ul#cmp li a#cmp04 {
+  width : 114px;
+  height : 38px;
+  margin-top : 20px;
+  margin-left : 222px;
+}
+
+ul#cmp li a#cmp04:hover, ul#cmp li a#cmp04:focus, ul#cmp li a#cmp04:active {
+  background : transparent url(images/Freiraum_on.png) no-repeat -222px -175px;
+}
+
+ul#cmp li a#cmp04:hover span.offset, ul#cmp li a#cmp04:focus span.offset, ul#cmp li a#cmp04:active span.offset {
+  margin-top :  0px;
+  margin-left : -175px;
+}
+
+/* hot-spot 05 css */
+
+ul#cmp li a#cmp05 {
+  width : 95px;
+  height : 33px;
+  margin-top : 0px;
+  margin-left : 275px;
+}
+
+ul#cmp li a#cmp05:hover, ul#cmp li a#cmp05:focus, ul#cmp li a#cmp05:active {
+  background : transparent url(images/Freiraum_on.png) no-repeat -275px -215px;
+}
+
+ul#cmp li a#cmp05:hover span.offset, ul#cmp li a#cmp05:focus span.offset, ul#cmp li a#cmp05:active span.offset {
+  margin-top : 0px;
+  margin-left : -150px;
+}
+
+/* hot-spot 06 css */
+
+ul#cmp li a#cmp06 {
+  width : 123px;
+  height : 33px;
+  margin-top : -35px;
+  margin-left : 360px;
+}
+
+ul#cmp li a#cmp06:hover, ul#cmp li a#cmp06:focus, ul#cmp li a#cmp06:active {
+  background : transparent url(images/Freiraum_on.png) no-repeat -360px -213px;
+}
+
+ul#cmp li a#cmp06:hover span.offset, ul#cmp li a#cmp06:focus span.offset, ul#cmp li a#cmp06:active span.offset {
+  margin-top : 0px;
+  margin-left : -150px;
+}
+
+
+/* hot-spot 07 */
+
+ul#cmp li a#cmp07 {
+  width : 160px;
+  height : 53px;
+  margin-top : -88px;
+  margin-left : 495px;
+}
+
+ul#cmp li a#cmp07:hover, ul#cmp li a#cmp07:focus, ul#cmp li a#cmp07:active {
+  background : transparent url(images/Freiraum_on.png) no-repeat -495px -160px;
+}
+
+ul#cmp li a#cmp07:hover span.offset, ul#cmp li a#cmp07:focus span.offset, ul#cmp li a#cmp07:active span.offset {
+  margin-top : 0px;
+  margin-left : -150px;
+}
+
+/* hot-spot 08 */
+
+ul#cmp li a#cmp08 {
+  width : 155px;
+  height : 62px;
+  margin-top : 48px;
+  margin-left : 435px;
+}
+
+ul#cmp li a#cmp08:hover, ul#cmp li a#cmp08:focus, ul#cmp li a#cmp08:active {
+  background : transparent url(images/Freiraum_on.png) no-repeat -435px -257px;
+}
+
+ul#cmp li a#cmp08:hover span.offset, ul#cmp li a#cmp08:focus span.offset, ul#cmp li a#cmp08:active span.offset {
+  margin-top : 0px;
+  margin-left : -150px;
+}
+
+</style>
+
+</head> 
+<body  id="exp_body">
+  <div id="exp_header">
+    
+    Forschungsstation f&uuml;r freies Leben <br> 
+    Hilton Plaza <br>
+    Spitzweidenweg 28, 07743 Jena
+  </div><!--exp_header-->
+     <hr class="none" />
+     <div id="exp_content">
+ <h2>Karte</h2>
+  <p>(Tastatur und Maus zum navigieren)	</p>
+    <ul id="cmp">
+      <li id=cmp1 ><a id="cmp01" href="wohnzimmer.html"><span class="offset"><img src="images/cmp1.jpg" width="150" height="120" alt="" /> <span>Der  <strong>finale</strong> Ort für BioMüll</span></span></a></li>
+
+      <li><a id="cmp02" href="#cmp02"><span class="offset"><img src="images/cmp2.jpg" width="150" height="120" alt="" /> <span>Home is where the Art is. Im <strong>Wohnzimmer</strong>. Die Weltuntergangszentrale</span></span></a></li>
+
+      <li><a id="cmp03" href="#cmp03"><span class="offset"><img src="images/cmp3.jpg" width="150" height="120" alt="" /> <span>Der Ort für Schreibtischt&auml;ter, <strong>Digital Beach</strong>. </span></span></a></li>
+
+      <li><a id="cmp04" href="#cmp04"><span class="offset"><img src="images/cmp4.jpg" width="150" height="120" alt="" /> <span>Die <strong>Bibliothek</strong> ist der Datenspeicher f&uuml;r Wissen in Papierform. </span></span></a></li>
+
+      <li><a id="cmp05" href="#cmp05"><span class="offset"><img src="images/cmp5.jpg" width="150" height="120" alt="" /> <span>Lager für Massenern&auml;hrungswaffen, kurz <strong>SoLaWi</strong> (lang solidarische Landwirtschaft). </span></span></a></li>
+	<li><a id="cmp06" href="#cmp06"><span class="offset"><img src="images/cmp5.jpg" width="150" height="120" alt="" /> <span>Open Space: <strong>Seminarraum</strong>, variael nutzbar. </span></span></a></li>
+        <li><a id="cmp07" href="#cmp07"><span class="offset"><img src="images/cmp5.jpg" width="150" height="120" alt="" /> <span>Produktiv &amp; kreativ in der <strong>Galerie &amp; Werkstatt </strong> Reparieren, kreieren , exponieren . </span></span></a></li>
+        <li><a id="cmp08" href="#cmp08"><span class="offset"><img src="images/cmp5.jpg" width="150" height="120" alt="" /> <span>Meditation, Yoga, Tiefenentspannung , im <strong>Dark Room</strong> ist gelegentlich licht</span></span></a></li>
+</ul>
+     <div style="clear:both;"><hr class="none" /></div>
+     </div><!--exp_content-->
+  <div id="exp_footer">
+    <p id="exp_cpline"> Validate: <a href="http://validator.w3.org/check?uri=referer" title="Extensible HyperText Markup Language Strict v1.0">XHTML&nbsp;1.0</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer" title="Cascading Style Sheet (Spec 2)">CSS&nbsp;2.0</a>
+  </div><!--exp_footer-->
+</body><!--exp_body-->
+</html>

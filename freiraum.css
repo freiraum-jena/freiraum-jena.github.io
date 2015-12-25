@@ -1,0 +1,90 @@
+/* Experiments Global CSS */
+
+* { 
+  margin : 0; 
+  padding : 0; 
+}
+body#exp_body { 
+  background-color : #334455;
+  font-family : 'Century Gothic', 'Trebuchet MS', Arial, sans-serif; 
+  font-size : 100.1%; 
+  color : #333;
+  padding : 15px;
+  text-align : center;
+         border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#exp_header {
+  background : #fafafa url(images/hdrback.png) no-repeat top right;
+  text-align : left;
+  padding : 13px 15px 13px 15px;
+  margin-bottom : 15px;
+  height: 250px;
+  border : 1px solid #234200;	
+         border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+h1#exp_h1 {
+  color : #669900;
+  font-weight : normal;
+  padding-bottom : 10px;
+  font-size : 1.6em;
+}
+p#exp_p {
+  padding-bottom : 10px;
+  width : 70%;
+  font-size : 0.9em;
+}
+p#exp_copyline {
+  margin-top : 5px;
+  text-align : center;
+  font-size : 0.75em;
+  color : #fff;
+}
+h1#exp_h1 a.exp_a {
+  text-decoration : none;
+  display : block;
+  width : 70%;
+}
+a.exp_a { 
+  background : transparent;
+  border : 0;
+  color : #669900;
+}
+a.exp_a:hover {
+  text-decoration : none;
+  color : #000;
+}
+a.exp_a:focus, a.exp:active, p#exp_copyline a:focus, p#exp_copyline a:active {
+  background-color : #ffffcc;
+}
+#exp_content { 
+  background : #fff url(images/contback.jpg) repeat-y;
+  border : 1px solid #000;
+}
+p#exp_copyline a {
+  color : #fff;
+}
+p#exp_copyline a:hover {
+  color : #ffffcc;
+  text-decoration : none;
+}
+p#exp_copyline a:focus, p#exp_copyline a:active {
+  background-color : #ffffcc;
+  color : #000;
+}
+.yes { 
+  display : inline; 
+}
+.no { 
+  display : none; 
+}
+hr.none {
+  display : none;
+}
+img, a img {
+  border : 0;
+}
+/* End */
